@@ -50,15 +50,16 @@ Levar ao conhecimento do público em geral o nome de alguns grupos de Maracatu q
 ---------------------------------------------------------
 ### Arquitetura MVC
 
+
 ```bash
 \--📂 maracatus
 		 |   .gitignore
-         |   .env
+		 |   .env
 		 |   package-lock.json
 		 |   package.json
-	     |   server.js
+	   |   server.js
 			\--📂 node_modules
-            \--📂 assets
+			\--📂assets
 			\--📂src
 			    |   app.js
 			    |
@@ -67,10 +68,11 @@ Levar ao conhecimento do público em geral o nome de alguns grupos de Maracatu q
 			    |
 			    📂---model
 			    |       grupoSchema.js
-				|       grupoRepository.js
+					|       grupoRepository.js
 			    |
 			    📂---routes
 			            grupoRoutes.js
+									
 ```
 
 ---------------------------------------------------------
