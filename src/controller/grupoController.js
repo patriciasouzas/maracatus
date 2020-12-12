@@ -47,7 +47,10 @@ const updateGrupo = (request, response) => {
             if(error) {
                 return response.status(500).send(error)
             } else if(grupo) {
-                return response.status(200).send(grupo)
+                return response.status(200).send({
+                    mensagem: "Grupo alterado com sucesso!",
+                    grupo
+                })
             } else {
                 return response.sendStatus(404)
             }
